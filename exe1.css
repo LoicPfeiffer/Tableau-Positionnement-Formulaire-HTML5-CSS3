@@ -1,0 +1,57 @@
+h1
+{
+font-size: 1em;
+line-height: 2em;
+text-align: center;
+text-decoration: underline
+
+}
+
+p
+{ 
+   text-align: center;
+   display: block;
+}
+.gauche
+{  
+   margin-right: 20px;
+   text-align:left;
+}
+.droite
+{
+   text-align: right;
+   margin-left: 20px;
+}
+
+
+.gauche,.droite 
+{
+   color: white;
+}
+
+#layout
+{   
+    text-align: center;
+    background-size: 20px 20px 20px;
+    background-color: black ;
+}
+
+ul
+{
+   padding-top:10px;
+   list-style: none;
+   
+}
+
+.liste1 li:before
+{
+      content: "";
+      border: 2px solid blue;
+      display: inline-block;
+      height: 4px;
+      width: 4px;
+      vertical-align: middle;
+      transform:rotate(55deg);
+      margin-right: 5px;
+
+}

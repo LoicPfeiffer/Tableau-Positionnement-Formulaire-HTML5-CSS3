@@ -1,0 +1,28 @@
+/*Un background de couleur noire ,une largeur de 500px ,un retrait de 5px , et un alignement centré pour l’élément identifié par "layout".
+Aligner le texte à gauche pour la classe "gauche" et à droite pour la classe "droite".
+Colorer le texte en blanc pour les éléments h2 , p et button.
+Affecter une couleur bleue au background du bouton.*/
+
+body
+{ 
+	text-align: center;
+	color: white;
+	background-color: black;
+	width: 500px;
+	margin: 5px;
+	
+}
+.gauche
+{
+	text-align: left;
+}
+
+.droite
+{
+	text-align: right;
+}
+
+button
+{
+	background: blue;
+}

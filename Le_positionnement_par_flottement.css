@@ -1,0 +1,16 @@
+div
+{
+	border: 1px solid rgba(0,0,0,.3);
+	text-align: center;
+        color:#fff;
+       
+}
+
+.box
+{
+        
+        float:left;
+       	background: #3498db;
+        margin: 5px;
+        height: 40px;
+}

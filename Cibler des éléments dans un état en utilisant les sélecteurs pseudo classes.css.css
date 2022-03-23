@@ -1,0 +1,85 @@
+/*
+Enlever la bordure droite et la bordure du haut, de la dernière cellule "th" qui possède un attribut "rowspan" (utiliser le pseudo classe "last-child' et un sélecteur d'attribut pour "rowspan".*/
+
+table
+{
+	width: 500px;
+	padding: 10px;
+
+}
+
+caption
+{
+	text-transform: uppercase;
+	font-size: 1.5em;
+
+}
+
+th,td
+{
+	text-align:center;
+}
+
+a:visited
+{
+
+	color:#FCB941 ;
+
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: white;
+	background:#7E3661 ;
+
+}
+
+a:active
+{
+	font-size: 1.5em;
+
+}
+
+tbody tr:nth-child(2n)
+{
+	background: #FCB941;
+}
+
+tbody tr:nth-child(2n+1)
+{
+	background: #F1654C;
+}
+
+
+tr:first-child th:nth-child(2)
+{
+	font-size: 2em;
+	color: blue;
+}
+
+tr:nth-child(odd)>td:first-child
+{
+	background-color: #7E3661;
+	color:#fff;
+}
+
+tr:nth-child(even)>td:first-child
+{
+	color:#fff ;
+	background:#888888 ;
+}
+
+tr:nth-child(odd)>td:last-child
+{
+	color:#fff;
+	background-color: #8870FF;
+	
+}
+
+th:last-child[rowspan]
+{
+	
+	border-right:10px;
+	border-top:none;
+}
